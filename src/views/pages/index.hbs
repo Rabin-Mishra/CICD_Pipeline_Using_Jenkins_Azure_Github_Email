@@ -1,0 +1,6 @@
+<h2>All Posts</h2>
+<ul>
+  {{#each posts}}
+    <li><a href='/post/{{slug}}'>{{title}}</a> - {{author}} ({{createdAt}})</li>
+  {{/each}}
+</ul>
